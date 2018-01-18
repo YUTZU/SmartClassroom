@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#2B2B2B</color>
+    <color name="colorPrimary">#4D4D4D</color>
+    <color name="lightbg">#55B8B8B8</color>
+    <color name="colorAccent">#55B8B8B8</color>
+
+    <color name="background">#FFFADE</color>
+
+    <color name="light_green"> #67D5B5</color>
+    <color name="light_red">#EE7785</color>
+    <color name="dark_green">#5CAB7D</color>
+    <color name="dark_red">#D81159</color>
+
+    <color name="connect_press"> #124878</color>
+    <color name="connect"> #e7b588</color>
+
+    <color name="login_item1">#D1DFD2</color>
+    <color name="login_item2">#B7C9B8</color>
+
+    <color name="button_blue1">#aacfd0</color>
+    <color name="button_blue2">#79a8a9</color>
+    <color name="button_blue3">#1f4e5f</color>
+    <color name="button_yelllow1">#fda804</color>
+    <color name="button_purpoe1">#A9B0D1</color>
+    <color name="button_white1">#f6ffff</color>
+    <color name="button_yellow2">#ab914b</color>
+
+
+
+
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+
+    <color name="list_row_hover_start_color">#ebee00</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="Btn_HoverStartColor">#ebee00</color>
+    <color name="Btn_HoverEndColor">#ebeef0</color>
+
+
+    <color name="White">#FFFFFF</color>
+    <color name="Highlight">#FFFFFF80</color>
+    <color name="Transparent">#00000000</color>
+
+    <color name="PropBackground">#A0FFFFFF</color>
+    <color name="SubtitleBackground">#60FFFFFF</color>
+
+    <color name="Crimson">#a20025</color>
+    <color name="LightCrimson">#64A20025</color>
+    <color name="DarkCrimson">#c8a20025</color>
+    <color name="Magenta">#D80073</color>
+    <color name="Red">#A20707</color>
+    <color name="Pink">#F472D0</color>
+    <color name="LightPink">#FCC5C5</color>
+    <color name="test">#004B97</color>
+
+    <color name="Mango">#FA6800</color>
+    <color name="Orange">#B83B1D</color>
+    <color name="Amber">#F0A30A</color>
+    <color name="Yellow">#E3C800</color>
+    <color name="LightAmber">#fff3e0</color>
+
+
+    <color name="Lime">#A2C139</color>
+    <color name="Green">#60A917</color>
+    <color name="Emerald">#008A00</color>
+    <color name="Olive">#6D8764</color>
+    <color name="ExcelGreen">#0A6332</color>
+    <color name="AlphaGreen">#A060A917</color>
+    <color name="AlphaBlueGreen">#a000b487</color>
+    <color name="AppGreen">#aa42d9a8</color>
+    <color name="AppPurple">#220090</color>
+
+    <color name="BlueGreen">#00B487</color>
+    <color name="Teal">#00ABA9</color>
+    <color name="Cyan">#1BA1E2</color>
+    <color name="Blue">#4F81BC</color>
+    <color name="AlphaBlue">#A04F81BC</color>
+
+    <color name="Cobalt">#0050EF</color>
+    <color name="Steel">#647687</color>
+    <color name="FacebookBlue">#3b5998</color>
+    <color name="FacebookMediumBlue">#6d84b4</color>
+    <color name="FacebookLighterBlue">#afbdd4</color>
+    <color name="FacebookLightestBlue">#d8dfea</color>
+
+    <color name="Purple">#803A7A</color>
+    <color name="Indigo">#6A00FF</color>
+    <color name="Violet">#AA00FF</color>
+    <color name="Mauve">#76608A</color>
+    <color name="DarkMauve">#e076608a</color>
+    <color name="LightMauve">#6476608A</color>
+
+    <color name="Brown">#825a2c</color>
+    <color name="Sienna">#A0522D</color>
+
+    <color name="Gray">#888888</color>
+    <color name="LightGray">#D4D4D4</color>
+    <color name="SpaceGray">#4D4D4D</color>
+    <color name="DarkGray">#202020</color>
+
+    <color name="Alpha">#30000000</color>
+
+    <color name="Inactive">#AAAAAA</color>
+</resources>

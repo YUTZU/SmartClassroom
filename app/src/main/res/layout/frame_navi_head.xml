@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#FDD692"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="姓名:陳信宏"
+        android:textColor="#011627"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/classTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班級:五年三班"
+        android:textColor="#011627"
+        android:padding="3dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/student"
+            android:title="基本資料"
+            android:icon="@drawable/ic_student"  />
+
+        <item android:id="@+id/network"
+            android:title="連線設定"
+            android:icon="@drawable/ic_global"
+            android:actionLayout="@layout/frame_icon_style"/>
+
+        <item android:id="@+id/interactive"
+            android:title="互動模式"
+            android:icon="@drawable/ic_classroom"
+            android:actionLayout="@layout/frame_icon_style"/>
+
+        <item android:id="@+id/study"
+            android:title="學習模式"
+            android:icon="@drawable/ic_score"
+            android:actionLayout="@layout/frame_icon_style"/>
+
+        <item android:id="@+id/score"
+            android:title="學習歷程"
+            android:icon="@drawable/ic_study"
+            android:actionLayout="@layout/frame_icon_style"/>
+
+        <item android:id="@+id/test"
+            android:title="學習測驗"
+            android:icon="@drawable/ic_test"
+            android:actionLayout="@layout/frame_icon_style"/>
+    </group>
+</menu>

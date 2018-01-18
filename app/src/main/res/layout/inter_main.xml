@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- START*** CardView Container *** -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/classCv"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:alpha="0.7"
+        card_view:cardBackgroundColor="#AAABD3"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="5dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/timeTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="課程時間"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/courseTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="課程"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lessonTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="課文"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teacherTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="老師"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/classTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="班級"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/peopleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="班上人數"
+                android:textColor="#404146"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
