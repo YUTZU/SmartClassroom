@@ -1,210 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- START*** Root Layout Container *** -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
-    android:orientation="horizontal"
-    android:weightSum="2"
-    tools:context=".MainActivity">
-
-    <!-- START*** CardView Container *** -->
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        card_view:cardBackgroundColor="#AAABD3"
-        card_view:cardCornerRadius="6dp"
-        card_view:cardElevation="5dp"
-        card_view:cardPreventCornerOverlap="true"
-        card_view:cardUseCompatPadding="true"
-        card_view:contentPadding="10dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:weightSum="5">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:orientation="horizontal"
-                android:weightSum="5">
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    card_view:srcCompat="@drawable/ic_classroom" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="互動模式"
-                        android:textColor="#404146"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:weightSum="3">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:orientation="horizontal"></LinearLayout>
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@color/DarkMauve"
-                    android:text="Button" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    >
 
     <LinearLayout
+        android:id="@+id/frameLlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:weightSum="2">
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-            <!-- START*** CardView Container *** -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                card_view:cardBackgroundColor="#d68189"
-                card_view:cardCornerRadius="6dp"
-                card_view:cardElevation="5dp"
-                card_view:cardPreventCornerOverlap="true"
-                card_view:cardUseCompatPadding="true"
-                card_view:contentPadding="10dp">>
+        <include layout="@layout/frame_toolbar" />
+        <!-- Let's add fragment -->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="學習模式"
-                        android:textColor="#404146"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- START*** CardView Container *** -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                card_view:cardBackgroundColor="#c6a49a"
-                card_view:cardCornerRadius="6dp"
-                card_view:cardElevation="5dp"
-                card_view:cardPreventCornerOverlap="true"
-                card_view:cardUseCompatPadding="true"
-                card_view:contentPadding="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="學習測驗"
-                        android:textColor="#404146"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
-
-        <!-- START*** CardView Container *** -->
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            card_view:cardBackgroundColor="#a3c9c7"
-            card_view:cardCornerRadius="6dp"
-            card_view:cardElevation="5dp"
-            card_view:cardPreventCornerOverlap="true"
-            card_view:cardUseCompatPadding="true"
-            card_view:contentPadding="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="學習歷程"
-                    android:textColor="#404146"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
     </LinearLayout>
 
-    <!-- END*** CardView Container *** -->
-
-</LinearLayout>
-    <!-- START*** Root Layout Container *** -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/frame_navi_head"
+        app:menu="@menu/nav_items"
+        />
+</android.support.v4.widget.DrawerLayout>
