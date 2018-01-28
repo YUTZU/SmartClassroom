@@ -9,13 +9,18 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity"
     >
+
     <LinearLayout
+        android:id="@+id/frameLlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <include layout="@layout/frame_toolbar" />
         <!-- Let's add fragment -->
-        <include android:id="@+id/container" layout="@layout/fragment_main" />
+        <include
+            android:id="@+id/container"
+            layout="@layout/frame_content_delete" />
 
     </LinearLayout>
 

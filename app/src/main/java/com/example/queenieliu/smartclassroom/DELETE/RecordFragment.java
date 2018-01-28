@@ -1,4 +1,4 @@
-package com.example.queenieliu.smartclassroom;
+package com.example.queenieliu.smartclassroom.DELETE;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.queenieliu.smartclassroom.R;
 
 /**
  * Created by Queenie Liu on 2018/1/11.
